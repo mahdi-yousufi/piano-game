@@ -11,16 +11,16 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #E3F2FD;
+  background: #d8aac1;
 }
 .wrapper {
   padding: 35px 40px;
   border-radius: 20px;
-  background: #141414;
+  background: #1c499c;
 }
 .wrapper header {
   display: flex;
-  color: #B2B2B2;
+  color: #ecebeb;
   align-items: center;
   justify-content: space-between;
 }
@@ -84,7 +84,8 @@ header input {
   height: 140px;
   margin: 0 -22px 0 -22px;
   border-radius: 0 0 5px 5px;
-  background: linear-gradient(#333, #000);
+  background-color: #6a2e72;
+  /* background: linear-gradient(#333, #000); */
 }
 .piano-keys .black.active {
   box-shadow: inset -5px -10px 10px rgba(255,255,255,0.1);
@@ -95,7 +96,8 @@ header input {
   width: 70px;
   border-radius: 8px;
   border: 1px solid #000;
-  background: linear-gradient(#fff 96%, #eee 4%);
+  background-color: #c26581;
+  /* background: linear-gradient(#fff 96%, #eee 4%); */
 }
 .piano-keys .white.active {
   box-shadow: inset -5px 5px 20px rgba(0,0,0,0.2);
@@ -105,7 +107,7 @@ header input {
   position: absolute;
   bottom: 20px;
   width: 100%;
-  color: #A2A2A2;
+  color: #fffefe;
   font-size: 1.13rem;
   text-align: center;
 }
@@ -114,7 +116,7 @@ header input {
 }
 .piano-keys .black span {
   bottom: 13px;
-  color: #888888;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 815px) {
@@ -158,4 +160,21 @@ header input {
   .piano-keys .white {
     width: 50px;
   }
+}
+
+
+footer{
+border-radius: 5px;
+margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  background-color: #1c499c;
+  height: 40px;
+  display: flex;
+}
+footer div p{
+margin-top: 10px;
+margin-left: 30px;
 }
